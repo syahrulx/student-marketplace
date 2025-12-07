@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin - Shipped Items</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/changes.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body >
+
+	<!-- Admin Navigation FIRST (fixed positioning) -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="adminHome.html"><span
+					class="glyphicon glyphicon-home">&nbsp;</span>Shopping Center</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="adminHome.html">Admin Home</a></li>
+					<li><a href="adminStock.html">Stock</a></li>
+					<li><a href="shippedItems.html">Shipped Items</a></li>
+					<li><a href="unshippedItems.html">Orders to Ship</a></li>
+					<li><a href="index.html">Logout</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Header SECOND (below fixed navbar) -->
+	<div class="container-fluid text-center"
+		style="">
+		<h2>CampusHub</h2>
+		<h6>Your Campus Marketplace</h6>
+	</div>
+
+	<div class="text-center"
+		style="color: green; font-size: 24px; font-weight: bold;">Shipped Orders</div>
+
+	<!-- Start of Shipped Items Table -->
+	<div class="container">
+
+		<table class="table table-hover">
+			<thead
+				style="">
+				<tr>
+					<th>Transaction ID</th>
+					<th>Product ID</th>
+					<th>Product Name</th>
+					<th>User Name</th>
+					<th>User Address</th>
+					<th>Quantity</th>
+					<th>Amount</th>
+					<th>Status</th>
+				</tr>
+			</thead>
+			<tbody
+				style="">
+
+				<!-- Sample Shipped Item 1 -->
+				<tr>
+					<td>TXN001</td>
+					<td>P001</td>
+					<td>APPLE iPhone 13 Pro</td>
+					<td>John Doe</td>
+					<td>123 Main Street, Bangalore, Karnataka - 560001</td>
+					<td>1</td>
+					<td>125999.00</td>
+					<td style="color: green;">ORDER_SHIPPED</td>
+				</tr>
+
+				<!-- Sample Shipped Item 2 -->
+				<tr>
+					<td>TXN003</td>
+					<td>P004</td>
+					<td>Dell XPS 15 Laptop</td>
+					<td>Jane Smith</td>
+					<td>456 Park Avenue, Mumbai, Maharashtra - 81310</td>
+					<td>1</td>
+					<td>145000.00</td>
+					<td style="color: green;">ORDER_SHIPPED</td>
+				</tr>
+
+				<!-- Sample Shipped Item 3 -->
+				<tr>
+					<td>TXN005</td>
+					<td>P003</td>
+					<td>Sony Bravia 55" 4K TV</td>
+					<td>Robert Johnson</td>
+					<td>789 Lake Road, Delhi - 110001</td>
+					<td>1</td>
+					<td>75000.00</td>
+					<td style="color: green;">ORDER_SHIPPED</td>
+				</tr>
+
+				<!-- Sample Shipped Item 4 -->
+				<tr>
+					<td>TXN007</td>
+					<td>P006</td>
+					<td>Canon EOS 90D Camera</td>
+					<td>Emily Davis</td>
+					<td>321 Beach Street, Chennai, Tamil Nadu - 600001</td>
+					<td>1</td>
+					<td>89999.00</td>
+					<td style="color: green;">ORDER_SHIPPED</td>
+				</tr>
+
+			</tbody>
+		</table>
+	</div>
+	<!-- End of Shipped Items Table -->
+
+	<!-- Footer -->
+	<div class="container-fluid"
+		style="background-color: #454545; color: white; margin-top: 200px;">
+		<div class="container">
+			<h3 class="text-center">Contact</h3>
+			<p class="text-center">
+				<em>We love our fans!</em>
+			</p>
+			<div class="row test">
+				<div class="col-md-4">
+					<p>
+						<span class="glyphicon glyphicon-copyright-mark"></span>
+						BitterCode - 2023
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
+

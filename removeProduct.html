@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin - Remove Product</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/changes.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body >
+
+	<!-- Admin Navigation FIRST (fixed positioning) -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="adminHome.html"><span
+					class="glyphicon glyphicon-home">&nbsp;</span>Shopping Center</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="adminHome.html">Admin Home</a></li>
+					<li><a href="adminStock.html">Stock</a></li>
+					<li><a href="shippedItems.html">Shipped Items</a></li>
+					<li><a href="unshippedItems.html">Orders to Ship</a></li>
+					<li><a href="index.html">Logout</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Header SECOND (below fixed navbar) -->
+	<div class="container-fluid text-center"
+		style="">
+		<h2>CampusHub</h2>
+		<h6>Your Campus Marketplace</h6>
+	</div>
+
+	<div class="container">
+		<div class="row"
+			style="margin-top: 5px; margin-left: 2px; margin-right: 2px;">
+
+			<form action="#" method="post"
+				class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2"
+				style="">
+				<div style="font-weight: bold;" class="text-center">
+					<h2 style="color: green;">Remove Product Form</h2>
+				</div>
+				<div></div>
+				<div class="row">
+					<div class="col-md-12 form-group">
+						<label for="pid">Product ID</label> <input type="text"
+							placeholder="Enter Product ID to Remove" name="pid"
+							class="form-control" id="pid" required>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-md-6" style="margin-bottom: 2px;">
+						<button type="Reset" class="btn btn-danger">Reset</button>
+					</div>
+					<div class="col-md-6">
+						<button type="submit" class="btn btn-success">Remove Product</button>
+					</div>
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="container-fluid"
+		style="background-color: #454545; color: white; margin-top: 200px;">
+		<div class="container">
+			<h3 class="text-center">Contact</h3>
+			<p class="text-center">
+				<em>We love our fans!</em>
+			</p>
+			<div class="row test">
+				<div class="col-md-4">
+					<p>
+						<span class="glyphicon glyphicon-copyright-mark"></span>
+						BitterCode - 2023
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
+
